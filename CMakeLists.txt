@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 project(CodeEngineExperiment VERSION 1.0.0)
 
 add_subdirectory(Bar)
+add_subdirectory(Baz)
 
 add_executable(Foo Foo.cpp)
 
